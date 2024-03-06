@@ -25,7 +25,7 @@ class Scanner:
             grade = "B+"
         
         elif nilai >= 68 and nilai <= 73.99:
-            grade = ""
+            grade = "B"
         
         elif nilai >= 65 and nilai <= 67.99:
             grade = "B-"
