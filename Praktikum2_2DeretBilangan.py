@@ -6,9 +6,9 @@
 
 class Deret:
     def bilangan(nim):
-       for i in range(1,51):
-           if i % 100 != nim :
-            print(i, end=" ")
+       for angka in range(1,51):  #start #stop
+           if angka  != nim :
+            print(angka, end=" ")
 
 nim = int(input("Masukkan 2 digit terakhir : "))  #input nim 
 
