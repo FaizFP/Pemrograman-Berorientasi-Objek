@@ -11,8 +11,8 @@ class Persegi:
         self.nama  = "Faiz Firdaus Priyanto"
         self.nim   = "064002300005"
         self.studi = "Teknik Informatika"
-        self.panjang = 20
-        self.lebar = 12
+        self.panjang = int(input("MAsukkan angka : "))
+        self.lebar = int(input("MAsukkan angka : "))
 
     def segitiga(self):
         return self.panjang * self.lebar  #rumus persegi 
