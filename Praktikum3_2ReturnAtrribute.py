@@ -20,7 +20,7 @@ class Persegi:
     def tampilan(self):  #tampilan user 
         print(self.nama , self.nim , self.studi)  
         print("---->PROGRAM MENGHITUNG PERSEGI PANJANG<----")
-        print("Persegi panjang dengan panjang", self.panjang, "cm, lebar", self.lebar, "memiliki luas sekitar", self.segitiga(), "cm^2")
+        print("Persegi panjang dengan panjang", self.panjang, "cm lebar", self.lebar, "memiliki luas sekitar", self.segitiga(), "cm^2")
 
 def main():  #Pemanggilan fungsi 
     obj_persegi = Persegi()
