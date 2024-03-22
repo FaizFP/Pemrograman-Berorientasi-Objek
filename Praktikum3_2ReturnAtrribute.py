@@ -23,8 +23,8 @@ class Persegi:
         print("Persegi panjang dengan panjang", self.panjang, "cm lebar", self.lebar, "memiliki luas sekitar", self.segitiga(), "cm^2")
 
 def main():  #Pemanggilan fungsi 
-    obj_persegi = Persegi()
-    obj_persegi.tampilan()
+    oPersegi = Persegi()
+    oPersegi.tampilan()
 
 if __name__ == "__main__":
     main()
